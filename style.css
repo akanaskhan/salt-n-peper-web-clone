@@ -1,0 +1,1338 @@
+@font-face {
+    font-family: Apercu;
+    src: url(./fonts/Apercu\ Regular.otf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(/fonts/futurak.ttf);
+}
+body{
+    margin: 0px;
+    font-family: Apercu;
+}
+
+.header{
+    width: 100%;
+    background-color: black;
+    padding: 10px 240px;
+}
+
+.logo img{
+    width: 160px;
+}
+.menu > li{
+    
+    display: inline-block;
+    color: white;
+    margin-right: 25px;
+}
+.logo,.right-side{
+    display: inline-block;
+}
+.logo{
+    width: 25%;
+    vertical-align: middle;
+}
+.right-side{
+    vertical-align: baseline;
+    width: 45%;
+    text-align: right;
+}
+.btns > button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+.btn-one{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white !important;
+}
+.btn-two{
+    background-color: #ed1c24;
+    border-radius: 35px;
+    border: 1px solid #ed1c24 !important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+}
+.menu{
+    display: inline-block;
+}
+.btns{
+    display: inline-block;
+}
+.btn-two > i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+}
+.slide {
+    width: 100%;
+    height: 670px;
+}
+.slide > img {
+    width: 100%;
+    height: 100%;
+}
+.intro {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    
+}
+.intro > .content > h2{
+    margin: 0;
+    color: white;
+}
+
+.content {
+    padding-top: 50px;
+    text-align: center;
+}
+.content > h2{
+    font-size: 40px;
+}
+.content > h2 > span {
+    font-family: futurak;
+    letter-spacing: 5px;
+}
+.content > p {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+.card-one {
+    width: 250px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 10px;
+    border-radius: 5px;
+}
+.card-one > img{
+    width: 70%;
+}
+.card-btn1 > button {
+    width: 179px;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+.card-btn1{
+    width: 250px;
+    margin-top: 15px; 
+    text-align: center;
+}
+.cards{
+    display: inline-block;
+}
+.card-container{
+    text-align: center;
+}
+.center-card{
+    margin: 15px 20px;
+}
+.branches {
+    width: 100%;
+    height: 1300px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    
+}
+
+.branches-intro {
+    text-align: center;
+    padding: 10px 240px;
+}
+.b-heading{
+    margin: 0;
+    font-family: futurak;
+    font-size: 50px !important;
+    letter-spacing: 5px;
+}
+
+.branches-intro > h2 {
+    font-size: 40px;
+    margin-top: 0;
+    padding: 0;
+}
+.branches-intro > p{
+    margin: 0 !important;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 0% !important;
+    
+}
+
+.branch-1 > .islamabad{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ed1c24;
+    font-style: normal;
+}
+.heading{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.heading > span{
+    font-size: 30px;
+    font-family: futurak;
+    letter-spacing: 2px;
+    padding: 0px;
+}
+
+.isb{
+    padding: 10px 240px;
+}
+.branch-1{
+    display: inline-block;
+    vertical-align: top;
+}
+.branch-1> p{
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.location,.phone{
+    padding-right: 4px !important;
+    
+}
+.branch1-btns{
+    padding-top: 20px;
+}
+ .branch1-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.branch1-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    
+}
+.branch1-btns > button > span{
+    padding-right: 5px;
+}
+.isb > .isb-image {
+    display: inline-block;
+    padding-right: 0;
+}
+.isb > .isb-image > img{
+    border-radius: 5px;
+    padding-left: 160px;
+    vertical-align:middle;
+}
+.branch-2 > .faisalabad{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ed1c24;
+    font-style: normal;
+}
+.fsb{
+    padding: 10px 240px;
+    padding-top: 40px;
+}
+.branch-2{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+.branch-2> p{
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.location,.phone{
+    padding-right: 8px;
+}
+.branch2-btns{
+    padding-top: 20px;
+}
+ .branch2-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.branch2-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    
+}
+.branch2-btns > button > span{
+    padding-right: 5px;
+}
+.fsb > .fsb-image {
+    display: inline-block;
+    padding-right: 0;
+}
+.fsb > .fsb-image > img{
+    border-radius: 5px;
+    padding-left: 0px;
+    vertical-align:middle;
+}
+.branch-3 > .bahawalpur{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ed1c24;
+    font-style: normal;
+}
+.heading{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.heading > span{
+    font-size: 30px;
+    font-family: futurak;
+    letter-spacing: 2px;
+    padding: 0px;
+}
+
+.bhv{
+    padding: 45px 240px;
+}
+.branch-3{
+    display: inline-block;
+    vertical-align: top;
+}
+.branch-3> p{
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.location,.phone{
+    padding-right: 8px;
+    
+}
+.branch3-btns{
+    padding-top: 20px;
+}
+ .branch3-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.branch3-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    
+    
+}
+.branch3-btns > button > span{
+    padding-right: 5px;
+}
+.bhv > .bhv-image {
+    display: inline-block;
+    padding-right: 0;
+}
+.bhv > .bhv-image > img{
+    border-radius: 5px;
+    padding-left: 120px;
+    vertical-align:middle;
+}
+.franchises{
+    padding: 10px 240px;
+    background-color: black;
+    height: 1800px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.franchises >.content {
+    margin-top: 0;
+}
+.franchises > .content > h2{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 0px !important;
+}
+.content > h2 > span{
+    font-family: futurak;
+    letter-spacing: 3px;
+    font-size: 50px !important;
+}
+
+.cards-container{
+    width: 100% !important;
+    height: 1500px;
+    margin-top: 30px;
+}
+.col-1{
+    height: 500px;
+}
+.ecard1-img{
+    height: 250px;
+    width: 350px;
+}
+.ecard1-img > img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+.ecard-1{
+    color: white;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+}
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard1-btns{
+    padding-top: 20px;
+}
+ .ecard1-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard1-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard1-btns > button > span{
+    padding-right: 5px;
+}
+.ecard2-img{
+    height: 250px;
+    width: 350px;
+}
+.ecard2-img > img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+.ecard-2{
+    color: white;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    padding: 0px 22px;
+}
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard2-btns{
+    padding-top: 20px;
+}
+ .ecard2-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard2-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard2-btns > button > span{
+    padding-right: 5px;
+}
+.ecard3-img{
+    height: 250px;
+    width: 350px;
+}
+.ecard3-img > img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+.ecard-3{
+    color: white;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+}
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard3-btns{
+    padding-top: 20px;
+}
+ .ecard3-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard3-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard3-btns > button > span{
+    padding-right: 5px;
+}
+.col-2{
+    height: 500px;
+}
+.ecard-4{
+    color: white;
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+}
+.ecard4-img{
+    margin-top: 0px !important;
+    
+}
+.ecard4-img > img{
+    
+    border-radius: 5px;
+}
+
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+    padding: 0 !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard4-btns{
+    padding-top: 30px;
+}
+ .ecard4-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard4-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard4-btns > button > span{
+    padding-right: 5px;
+}
+.ecard5-img{
+    height: 250px;
+    width: 350px;
+}
+.ecard5-img > img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+.ecard-5{
+    color: white;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    justify-content: baseline;
+    padding: 0px 22px;
+}
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard5-btns{
+    padding-top: 20px;
+}
+ .ecard5-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard5-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard5-btns > button > span{
+    padding-right: 5px;
+}
+.ecard6-img{
+    height: 250px;
+    width: 350px;
+}
+.ecard6-img > img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+.ecard-6{
+    color: white;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+}
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard6-btns{
+    padding-top: 20px;
+}
+ .ecard6-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard6-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard6-btns > button > span{
+    padding-right: 5px;
+}
+
+
+
+.col-3{
+    margin-top: 15px;
+    height: 500px;
+}
+.ecard-7{
+    color: white;
+    height: 500px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+}
+.ecard7-img{
+    margin-top: 0px !important;
+    
+}
+.ecard7-img > img{
+    
+    border-radius: 5px;
+}
+
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+    padding: 0 !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard7-btns{
+    padding-top: 30px;
+}
+ .ecard7-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard7-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard7-btns > button > span{
+    padding-right: 5px;
+}
+.ecard-8{
+    color: white;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    justify-content: baseline;
+    padding: 0px 22px;
+}
+.ecard8-img{
+    height: 250px;
+    width: 350px;
+}
+.ecard8-img > img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard8-btns{
+    padding-top: 20px;
+}
+ .ecard8-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard8-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard8-btns > button > span{
+    padding-right: 5px;
+}
+
+.ecard-9{
+    color: white;
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+}
+.ecard9-img{
+    height: 250px;
+    width: 350px;
+}
+.ecard9-img > img{
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.card-info > .packages{
+    letter-spacing: 5px;
+    font-size: 13px;
+    color: #ed1c24;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.card-info > h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 13px 0px !important;
+}
+.card-info > h3 > span{
+    font-size: 22px;
+    font-family: futurak;
+    letter-spacing: 1px;
+}
+.card-info > p {
+    margin: 8px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+.card-info > p > i{
+    padding-right: 4px !important;
+    
+}
+.ecard9-btns{
+    padding-top: 40px;
+}
+ .ecard9-btns > button{
+    background-color: transparent;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid white!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.ecard9-btns > button> i{
+    background-color: white;
+    color: #ed1c24;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    rotate: 330deg;
+    
+}
+.ecard9-btns > button > span{
+    padding-right: 5px;
+}
+.vilage{
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.871);
+    
+}
+.v-intro{
+    text-align: center;
+    padding: 0px 240px;
+    color: white;
+}
+
+.salt{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: futurak;
+    font-size: 50px !important;
+    padding-top: 40px;
+}
+.vf{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.v-image{
+    float: left;
+    width: 700px;
+    height: 450px;
+    padding-right: 0;
+    margin-right: 0;
+}
+.v-image > img{
+    width: 750px;
+    height: 450px;
+    border-radius: 5px;
+}
+.vilage > .content{
+    float: left;
+    text-align: left;   
+    padding: 30px 20px;
+    justify-content: start;
+    margin-left: 60px;
+}
+.packages{
+    letter-spacing: 5px;
+    font-size: 17px;
+    color: #ed1c24 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+.content > p > span{
+    font-family: futurak;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 30px;
+    
+}
+.content > .head{
+    font-size: 30px;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+.v-btn{
+    padding-top: 40px;
+}
+ .v-btn > button{
+    background-color: #28a745;
+    border-radius: 35px;
+    border: none;
+    border: 1px solid #28a745!important;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold;
+    width: 170px;
+    height: 48px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+.v-btn > button> i{
+    background-color: white;
+    color: #28a745;
+    margin-left: 2px;
+    border-radius: 100%;
+    padding: 8px;
+    
+}
+.v-btn > button > span{
+    padding-right: 5px;
+}
+.franchises-opening{
+    background-color: black;
+    padding: 0px 240px;
+    height: 1000px;
+}
+.opening-intro{
+    color: white;
+    text-align: center;
+}
+.opening-intro > .p{
+    font-size: 50px;
+    margin-top: 0;
+}
+.opening-intro > .p > span{
+    font-size: 25px;
+}
+
+.coming-container{
+    background-color: #28a745;
+    height: 750px;
+}
+.card-1{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+}
+.card1-img > image{
+    margin: 0%;
+    padding: 0%;
+}
+.red-heading{
+    color: #ed1c24 !important;
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin-top: 15px;
+}
+.card-1 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.details > p > span{
+    font-weight: bold;
+}
+.card-2{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+    margin: 0px 25px;
+}
+.card-2 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.card-3{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+}
+.card-3 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.card-4{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+    margin: 25px 0px;
+}
+.card-4 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.card-5{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+    margin: 25px 25px;
+}
+.card-5 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.card-6{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+    margin: 0px 0px;
+}
+.card-6 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.card-7{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+}
+.card-7 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.card-8{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+    margin: 0px 25px;
+}
+.card-8 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
+.card-9{
+    background-color: white;
+    width: 300px;
+    height: 180px;
+    padding: 25px 24px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ed1c24;
+    display: inline-block;
+}
+.card-9 > .details{
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+}
