@@ -9,6 +9,7 @@
 body{
     margin: 0px;
     font-family: Apercu;
+    background-color: #000;
 }
 
 .header{
@@ -138,7 +139,7 @@ body{
 .branches {
     width: 100%;
     height: 1300px;
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(255, 255, 255, 0.06);
     color: white;
     
 }
@@ -366,7 +367,7 @@ body{
 }
 .franchises{
     padding: 10px 240px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.877);
     height: 1800px;
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
@@ -1064,7 +1065,7 @@ body{
 .vilage{
     height: 700px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.871);
+    background-color: rgba(255, 255, 255, 0.06);;
     
 }
 .v-intro{
@@ -1154,7 +1155,7 @@ body{
     padding-right: 5px;
 }
 .franchises-opening{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.877);
     padding: 0px 240px;
     height: 1000px;
 }
@@ -1171,7 +1172,6 @@ body{
 }
 
 .coming-container{
-    background-color: #28a745;
     height: 750px;
 }
 .card-1{
@@ -1335,4 +1335,260 @@ body{
     margin: 0%;
     padding: 0%;
     font-size: 20px;
+}
+.social{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+.s-intro > h3{
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+}
+.s-images{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.simg-1{
+    width: 297px;
+    height: 300px;
+}
+.simg-1 > img{
+    width: 297px;
+    height: 297px;
+}
+.simg-2{
+    width: 297px;
+    height: 300px;
+    padding: 0px 25px;
+}
+.simg-2 > img{
+    width: 297px;
+    height: 297px;
+}
+.simg-3{
+    width: 297px;
+    height: 300px;
+}
+.simg-3 > img{
+    width: 297px;
+    height: 297px;
+}
+.simg-4{
+    width: 297px;
+    height: 300px;
+    padding: 0px 25px;
+}
+.simg-4 > img{
+    width: 297px;
+    height: 297px;
+}
+.simg-5{
+    width: 297px;
+    height: 300px;
+}
+.simg-5 > img{
+    width: 297px;
+    height: 297px;
+}
+.fpart-1{
+    display: flex;
+    width: 100%;
+    
+}
+.footer{
+    height: 400px;
+    padding-top: 40px;
+    padding-right: 240px;
+    padding-left: 240px;
+    padding-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.06);
+    margin-bottom: 0 !important;
+}
+.fcol-1{
+    width: 375px;
+    height: 320px;
+}
+.fcol-1 > img{
+    padding-top: 30px;
+    width: 140px;
+    height: 64px;
+}
+.fcol-1 > p{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+.fcol-1 > p > span{
+    padding-top: 300px;
+    padding-bottom: 0;
+    line-height: 90px;
+}
+.fcol-2{
+    width: 200px;
+    height: 300px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 20px;
+}
+.fcol-2 > ul > li > a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: none;
+}
+.fcol-2 > ul > li {
+    list-style: none;
+    text-align: left !important;
+}
+.fcol-2 > h3 {
+    color: white;
+    padding-left: 40px;
+}
+.fcol-3{
+    width: 300px;
+    height: 300px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 20px;
+}
+.fcol-3 > ul > li > a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-decoration: none;
+}
+.fcol-3 > ul > li {
+    list-style: none;
+    text-align: left !important;
+}
+.fcol-3 > h3 {
+    color: white;
+    padding-left: 40px;
+}
+.fcol-4{
+    width: 250px;
+    height: 280px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+.fcol-4 > .follow-us{
+    color: white !important;
+}
+.facebook, .insta,.x{
+    display: inline-block;
+}
+.facebook > button{
+    background-color: #ed1c24;
+    border: none;
+    border-radius: 70%;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+.facebook > button > i{
+    padding: 10px;
+}
+.insta > button{
+    background-color: #ed1c24;
+    border: none;
+    border-radius: 70%;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin: 5px 3px;
+}
+.insta > button > i{
+    padding: 0px;
+    margin: 0;
+}
+.x > button{
+    background-color: #ed1c24;
+    border: none;
+    border-radius: 70%;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+.x > button > i{
+    padding: 10px;
+}   
+.stores{
+    margin-top: 20px;
+}
+.stores > img {
+    margin-bottom: 5px;
+}
+.copyright{
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0;
+}
+.line{
+    padding-top: 15px;
+    text-align: left !important;
+    width: 1040px;
+    height: 1px;
+    color: gray;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.c-right,.c-left{
+    display: inline-block;
+    padding-bottom: 0;
+    margin: 0px;
+}
+.c-right{
+    margin-left: 580px;
+    justify-content: end;
+    
+}
+.c-left{
+    padding-left: 0;
+    justify-content: start;
+    
+}
+.c-left > p{
+    letter-spacing: 0.03em;
+}
+.c-right > p{
+    letter-spacing: 0.03em;
+}
+.footer-layer{
+    position: absolute;
+    width: 400px;
+    height: 440px;
+    padding: 0 !important;
+}
+.footer-layer > img{
+    margin-top: 50px;
+    margin-left: 20px;
+    opacity: 50%;
+}
+.s-layer{
+    position: absolute;
+    width: 400px;
+    height: 440px;
+    padding: 0 !important;
+}
+.s-layer > img{
+    margin-top: 50px;
+    margin-left: 1230px;
+}
+.p-layer{
+    position: absolute;
+    width: 400px;
+    height: 440px;
+    padding: 0 !important;
+}
+.p-layer > img{
+    margin-top: 50px;
+    margin-left: 30px;
 }
